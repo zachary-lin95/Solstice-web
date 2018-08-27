@@ -5,13 +5,18 @@
   "dependencies": {
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
-    "react-scripts": "1.1.5"
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.5",
+    "chart.js": "^2.7.2",
+    "react-chartjs-2": "^2.7.4",
+    "react-router": "^4.3.1"
   },
+
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build --history-api-fallback",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "proxy":"http://localhost:5000"
+  "proxy": "http://localhost:5000"
 }
