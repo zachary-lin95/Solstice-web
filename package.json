@@ -1,0 +1,22 @@
+{
+  "name": "solsticeweb",
+  "version": "1.0.0",
+  "description": "stand alone web application with navigation bar and graph",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Ke Lin",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "chart.js": "^2.7.2",
+    "react-chartjs-2": "^2.7.4",
+    "react-router": "^4.3.1"
+  }
+}
